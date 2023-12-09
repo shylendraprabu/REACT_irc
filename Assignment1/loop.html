@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        #itemList {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .item {
+            border: 1px solid #ccc;
+            margin: 5px;
+            padding: 10px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <ul id="itemList"></ul>
+
+    <script>
+        const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
+
+        const itemList = document.getElementById('itemList');
+
+        for (let i = 0; i < items.length; i++) {
+            const li = document.createElement('li');
+            li.className = 'item';
+            li.textContent = items[i];
+            itemList.appendChild(li);
+        }
+    </script>
+
+</body>
+</html>
