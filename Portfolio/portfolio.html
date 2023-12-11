@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfoliocss.css">
+    <title>My Profile</title>
+</head>
+<body style="background-image:url('portfoliobgimage.jpg'); background-repeat: no-repeat; background-size:cover;">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="hero">
+            <h2>Hello I'm</h2>
+            <h1>SHYLENDRA PRABU</h1>
+            <h2>I'm a</h2>
+            <p>Software Developer & Machine Learning Developer</p>
+        </div>
+    </header>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <a href="RERENT.html" style="color: black;">
+            <div class="project-card">
+            <h3>Project 1-RERENT</h3>
+            <p>Introducing our innovative rental platform, where convenience meets versatility! Whether you're seeking the perfect wheels for your journey or the melodious notes of a musical adventure, our platform seamlessly connects you with a diverse range of top-quality vehicles and musical instruments. Tailored for enthusiasts and professionals alike, our user-friendly interface ensures a hassle-free rental experience. Embrace the freedom to explore new roads or create captivating melodies with our meticulously curated selection. Elevate your journey and harmonize your passion – all at your fingertips with our one-of-a-kind rental platform.</p>
+        </div></a>
+        <a href="https://github.com/shylendraprabu/MachineLearning-Projects.git" style="color:black">
+            <div class="project-card">
+            <h3>Project 2-Machine Learning Model</h3>
+            <p>*Loan Amount Prediction</p>
+            <p>*Bank Fraud Detection</p>
+        </div></a>
+    </section>
+    <section id="skill">
+        <h2>SKILLS</h2>
+        <div class="skill-card">
+            <h4>•Problem Solving using</h4>
+            <p>C++</p>
+            <p>Python</p>
+            <p>Advanced Java</p>
+        </div>
+        <div class="skill-card">
+            <h4>•Web Designing using</h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>React JS</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form" onsubmit="submitForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <script src="portfoliojs.js"></script>
+</body>
+</html>

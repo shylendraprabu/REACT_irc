@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Payment Page</title>
+    <style>
+      body{
+        background: url(bk.jpeg) no-repeat;
+        background-size: cover;
+      }
+      form {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      input[type="number"] {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+     
+      .error {
+        color: red;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="paybg">
+    <form>
+      <h2>Payment Details</h2>
+      <label for="card-holder-name">Card Holder Name:</label>
+      <input type="text" id="card-holder-name" name="card-holder-name" placeholder="Enter Full Name Here.." required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Mail id Here..." required>
+
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" name="card-number" placeholder="Enter Card Number Here..." pattern="[0-9]{16}" required>
+
+      <label for="expiry-month">Expiry Month:</label>
+      <input type="number" id="expiry-month" name="expiry-month" placeholder="Enter Month Here..." min="1" max="12" required>
+
+      <label for="expiry-year">Expiry Year:</label>
+      <input type="number" id="expiry-year" name="expiry-year" placeholder="Enter Year Here..." min="2022" max="2030" required>
+
+      <label for="cvv">CVV:</label>
+      <input type="number" id="cvv" name="cvv" placeholder="Enter CVV Here..." pattern="[0-9]{3}" required>
+
+      <a href="#"><input type="submit" value="Submit" ></a>
+    </form>
+    </div>
+  </body>
+</html>

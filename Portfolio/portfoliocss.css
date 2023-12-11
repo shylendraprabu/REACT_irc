@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none ;
+    padding: 30px;
+    text-align: right;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+section {
+    padding: 50px;
+}
+
+.project-card {
+    border: 5px solid #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.skill-card{
+    border: 5px solid #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-card:hover {
+    background-color: #ffffff;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}

@@ -1,0 +1,32 @@
+.flex-container
+        {
+            display: -webkit-flex;
+            display:flex;
+            width: 1850px;
+            height:370px;
+            background-image:url('bk.jpeg');
+            background-size:full;
+        }
+        .flex-item
+        {
+            width:350px;
+            height:250px;
+            margin:10px ;
+
+        }
+        .navbar ul{
+            float: right;
+            margin-right: 20px;
+        }
+        .navbar ul li{
+            list-style: none;
+            margin: 0 8px;
+            display: inline-block;
+            line-height: 80px;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+        

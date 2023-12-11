@@ -1,0 +1,15 @@
+.flex-container
+        {
+            display: -webkit-flex;
+            display:flex;
+            width: 1500px;
+            height:360px;
+            background-image:url('bk.jpeg');
+        }
+        .flex-item
+        {
+            background-image:url('bk.jpeg');
+            width:450px;
+            height:250px;
+            margin:10px ;
+        }

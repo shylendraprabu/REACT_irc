@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="SIGN UP.CSS">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button-box" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button-box" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <form id="login"class="input-group" >
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Enter password" required>
+                    <input type="checkbox" class="chech-box"><span><a href="#"><b style="text-decoration: none;">Forget Password</b></a></span>
+                    
+                   <button type="submit" class="submit-btn" style="text-decoration: none;"> <a href="D:\SKCT college\HTML\RERENT.html">Log In</a></button>
+                </form>
+                <form id="register"class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="email" class="input-field" placeholder="EMAIL ID" required>
+                    <input type="checkbox" class="chech-box"><span>I agree to terms & condition</span>
+                    <button type="submit" class="submit-btn"> <a href="D:\SKCT college\HTML\RERENT.html">Register</a></button>
+                </form>
+            </div>
+            
+        </div>
+        <script>
+
+            var x =document.getElementById("login");            
+            var y =document.getElementById("register");            
+            var z =document.getElementById("btn");         
+            function register()
+            {
+                x.style.left="-400px";
+                y.style.left="50px";
+                z.style.left="110px";
+            }   
+            function login()
+            {
+                x.style.left="50px";
+                y.style.left="450px";
+                z.style.left="0";
+            }   
+
+        </script>
+    </body>
+</html>
