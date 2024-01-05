@@ -1,0 +1,86 @@
+*{
+    MARGIN:0;
+    padding: 0;
+    BOX-SIZING:BORDER-BOX;
+    FONT-FAMILY:'POPPINS',SANS-SERIF;
+}
+
+.HERO{
+    WIDTH:100%;
+    HEIGHT:100VH;
+    
+    POSITION:RELATIVE;
+    PADDING:0 5%;
+    DISPLAY:FLEX;
+    ALIGN-ITEMS:CENTER;
+    justify-content: CENTER;
+}
+NAV{
+    WIDTH:100%;
+    POSITION:ABSOLUTE;
+    TOP:0;
+    LEFT:0;
+    padding:20PX 8%;
+    DISPLAY:FLEX;
+    ALIGN-ITEMS:CENTER;
+    JUSTIFY-CONTENT:SPACE-BETWEEN;
+}
+
+NAV UL LI{
+    LIST-STYLE:NONE;
+    display: INLINE-BLOCK;
+    margin-left: 40PX;
+}
+NAV UL LI A{
+    TEXT-DECORATION:NONE;
+    COLOR:#FFF;
+    FONT: SIZE 17px;
+}
+.CONTECT{
+    text-align:CENTER ;
+}
+.CONTENT H2{
+    FONT-SIZE:100PX;
+    COLOR:#FFF;
+    font-weight: 600;
+    transition: 0.5S;
+}
+.CONTENT A:hover{
+    -webkit-text-stroke:2PX #FFF;
+    COLOR: TRANSPARENT;
+}
+.CONTENT A{
+    text-decoration: none;
+    DISPLAY:INLINE-BLOCK;
+    COLOR:#FFF;
+    FONT-SIZE:24PX;
+    BORDER:2PX SOLID #FFF;
+    padding:14PX 70PX ;
+    BORDER-RADIUS:50PX;
+    margin-top: 20PX;
+}
+.BACK-VIDEO{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    Z-INDEX:-1;
+}
+@media(MIN-ASPECT-RADIO:16/9)
+{
+    .BACK-VIDEO{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(MAX-ASPECT-RADIO:16/9)
+{
+    .BACK-VIDEO
+    {
+        width: auto;
+        height: 100%;
+    }
+}
+H1{
+    text-decoration: none;
+    text-shadow:5PX 1PX 1PX black;
+}

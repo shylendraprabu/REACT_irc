@@ -1,0 +1,40 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ff8c00;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .social-icons {
+    font-size: 24px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+  }
+.dp
+{
+    padding: 10px;
+}
